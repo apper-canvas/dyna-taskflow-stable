@@ -7,9 +7,8 @@ import TaskList from "@/components/organisms/TaskList";
 import AddTaskForm from "@/components/molecules/AddTaskForm";
 import FilterToolbar from "@/components/molecules/FilterToolbar";
 import { taskService } from "@/services/api/taskService";
-import ApperIcon from "@/components/atoms/ApperIcon";
+import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
-
 const Dashboard = () => {
   // Data state
   const [tasks, setTasks] = useState([]);
